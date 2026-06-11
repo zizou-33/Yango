@@ -1,0 +1,50 @@
+# =====================
+# DJANGO
+# =====================
+
+__pycache__/
+*.py[cod]
+
+venv/
+env/
+.venv/
+
+db.sqlite3
+*.sqlite3
+
+media/
+staticfiles/
+
+.env
+
+
+# Django migrations (décommente si voulu)
+# **/migrations/*
+# !**/migrations/__init__.py
+
+
+# =====================
+# ANGULAR
+# =====================
+
+node_modules/
+dist/
+.angular/
+coverage/
+
+npm-debug.log*
+yarn-error.log*
+
+# =====================
+# IDE
+# =====================
+
+.idea/
+.vscode/
+
+# =====================
+# OS
+# =====================
+
+Thumbs.db
+.DS_Store
